@@ -3,7 +3,7 @@ module.exports = {
   description: `Blog posted about ...`,
   author: `pilhwan kim`,
   introduction: `광운대학교 컴퓨터소프트웨어학과 03학번 졸업. 현재 하나님 나라의 기름부음 받은 소프트웨어 개발자로 살고자 함.`,
-  siteUrl: `https://leonkim.netlify.com`, // Your blog site url
+  siteUrl: `https://leonkim.dev`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: `PilhwanKim`, // Your GitHub account

@@ -1,7 +1,7 @@
 ---
-title: '파이썬을 이용한 클린 코드를 위한 테스트 주도 개발 - 1장 기능 테스트를 이용한 Django 설치'
-date: 2019-12-23 10:00:00
-category: 'tdd with python'
+title: 파이썬을 이용한 클린 코드를 위한 테스트 주도 개발 - 1장 기능 테스트를 이용한 Django 설치
+date: 2020-01-02 00:01:10
+category: tdd
 ---
 
 ## Testing Goat

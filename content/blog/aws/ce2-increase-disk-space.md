@@ -1,10 +1,8 @@
 ---
-title: EC2 디스크 용량 늘리기
+title: AWS EC2 디스크 용량 늘리기
 date: 2020-01-13 15:30:15
 category: aws
 ---
-
-# AWS EC2 디스크 용량 늘리기
 
 가끔 운영중인 EC2의 디스크가 부족해 디스크 용량을 늘려야 할 경우가 생긴다.
 
@@ -12,7 +10,7 @@ category: aws
 
 그 방법을 정리해 보았다.
 
-## AWS 콘솔 설정
+# AWS 콘솔 설정
 
 1. AWS console에 접속 > EC2 서비스 이동
   
@@ -33,7 +31,7 @@ category: aws
 
 5. 물리적 디스크 용량은 늘어나지만 여기가 끝이 아님.
 
-## 파티션 설정
+# 파티션 설정
 
 ssh 로 들어가서 df로 확인해보면 하드디스크 용량은 아직 늘지 않았다.
 
@@ -68,7 +66,7 @@ nvme0n1     259:0    0   50G  0 disk
 
 파티션 설정을 해보자.
 
-## Linux 파티션 크기 조정
+# Linux 파티션 크기 조정
 
 ```shell script
 $ sudo growpart /dev/nvme0n1 1
@@ -91,7 +89,7 @@ nvme0n1     259:0    0   50G  0 disk
 
 그러나 리눅스는 파일 시스템 확장까지 해야 실제 하드디스크를 이용할 수 있다.
 
-## ex4 파일 시스템 확장
+# ex4 파일 시스템 확장
 
 파일시스템의 종류에 따라 파일시스템 변경방식이 다르다.
 
@@ -124,6 +122,6 @@ tmpfs          tmpfs     390M     0  390M   0% /run/user/1000
 
 루트가 확장되어 50G 모두 반영되었다.
 
-### 참고
+## 참고
 
 - https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/recognize-expanded-volume-linux.html

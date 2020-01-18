@@ -16,6 +16,10 @@ Pilhwan Kim is a backend Developer at PeopleFund. I have skills for python and j
 
 I have various experiences in web development of information systems such as IoT(Internet of Things) monitoring solution, SNS, Fin-tech platform.
 
+The fear of the LORD is the beginning of wisdom, and knowledge of the Holy One is understanding. - Proverbs 9:10 
+
+</div>
+
 Specialties:
 
 - Web development experience of Django, Spring
@@ -50,7 +54,3 @@ Skills:
     - Git / Github
     - Jenkins
     - Slack
-
-The fear of the LORD is the beginning of wisdom, and knowledge of the Holy One is understanding. - Proverbs 9:10 
-
-</div>

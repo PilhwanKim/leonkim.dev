@@ -4,7 +4,7 @@ date: 2019-1-27 16:21:13
 lang: 'en'
 ---
 
-# Pilhwan kim
+# Pilhwan Kim
 
 ![크롬 화면](../assets/profile.png)
 
@@ -12,7 +12,7 @@ lang: 'en'
 
 ## About
 
-Pilhwan Kim is a backend Developer at PeopleFund. I have skills for python and java web programming. I have focused on verifiable and reliable backend development by TDD(Test-driven Development) and OOP(Object Oriented Programming) principles.
+Pilhwan Kim is a backend Developer at PeopleFund(https://peoplefund.co.kr). I have skills for python and java web programming. I have focused on verifiable and reliable backend development by TDD(Test-driven Development) and OOP(Object-Oriented Programming) principles.
 
 I have various experiences in web development of information systems such as IoT(Internet of Things) monitoring solution, SNS, Fin-tech platform.
 
